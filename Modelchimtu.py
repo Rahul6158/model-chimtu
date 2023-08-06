@@ -44,7 +44,8 @@ game_over = False
 font = pygame.font.Font(None, 36)
 
 # Load background music
-pygame.mixer.music.load("Fluffing-a-Duck.mp3")
+audio_path = "audio/Fluffing-a-Duck.mp3"
+pygame.mixer.music.load(audio_path)
 pygame.mixer.music.set_volume(0.5)  # Adjust volume (0.0 to 1.0)
 
 # Start playing background music
